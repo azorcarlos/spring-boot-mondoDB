@@ -30,6 +30,7 @@ public class FuncitonarioController {
 
     @PostMapping
     public Funcionario criar(@RequestBody Funcionario funcionario){
+        System.out.println(funcionario);
         return funcionarioServices.criar(funcionario);
     }
 

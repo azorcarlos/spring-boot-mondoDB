@@ -27,6 +27,7 @@ public class FuncionarioServicesImpl implements FuncionarioServices {
 
     @Override
     public Funcionario criar(Funcionario funcionario) {
+        System.out.println(funcionario);
         Funcionario chefe =
                 repository.findById(funcionario.getChefe().getCodigo())
                 .orElseThrow(()-> new IllegalArgumentException("Chefe não existe"));
