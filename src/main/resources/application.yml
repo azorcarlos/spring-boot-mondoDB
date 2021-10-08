@@ -1,0 +1,11 @@
+server:
+  port: 8085
+
+spring:
+  data:
+    mongodb:
+      database: admin
+      port: 27017
+      password: root
+      username: root
+

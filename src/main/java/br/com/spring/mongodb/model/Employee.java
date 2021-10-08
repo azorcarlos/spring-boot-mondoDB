@@ -12,16 +12,14 @@ import java.math.BigDecimal;
 @Data
 @Document
 @ToString
-public class Funcionario {
+public class Employee {
     @Id
-    private String codigo;
-
-    private String nome;
-    private Integer idade;
-    private BigDecimal salario;
-
+    private String id;
+    private String name;
+    private Integer age;
+    private BigDecimal wages;
     @DBRef
-    private Funcionario chefe;
+    private Employee head;
 
 
 }
