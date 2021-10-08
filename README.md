@@ -1,2 +1,3 @@
 # springBootMongoDB
-Api rest Java persistindo dados no MongoDB
+Api rest spring-boot utilizando banco de dados MongoDB
+
